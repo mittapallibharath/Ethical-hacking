@@ -1,0 +1,10 @@
+-sS	TCP syn port scan;	    nmap -sS 192.168.1.1
+-sT	TCP connect port scan;	nmap -sT 192.168.1.1
+–sU	UDP port scan;        	nmap –sU 192.168.1.1
+–sA	TCP ack port scan;    	nmap –sA 192.168.1.1
+
+To perform host discovery
+-Pn	only port scan	;nmap -Pn192.168.1.1
+-sn	only host discover;	nmap -sn192.168.1.1
+-PR	arp discovery on a local network;	nmap -PR192.168.1.1
+-n	disable DNS resolution;	nmap -n 192.168.1.1
